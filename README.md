@@ -2,7 +2,7 @@
  
 
 # Základné príkazy v Ubuntu/Debian CLI
-  ls ---výpis priečinkov v adresári kde sa nachádzame
+__ls ---výpis priečinkov v adresári kde sa nachádzame
   ls -a ---výpis všetkých priečinkov v adresári kde sa nachádzame
   cd .. ---presun o adresár nižšie
   cd .../... ---presun do zadaného adresáru
