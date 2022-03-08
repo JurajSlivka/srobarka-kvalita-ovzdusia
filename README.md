@@ -2,43 +2,43 @@
  
 
 # Základné príkazy v Ubuntu/Debian CLI
-__ls ---výpis priečinkov v adresári kde sa nachádzame
-  ls -a ---výpis všetkých priečinkov v adresári kde sa nachádzame
-  cd .. ---presun o adresár nižšie
-  cd .../... ---presun do zadaného adresáru
-  mkdir ---vytvorenie adresáru 
-  rm ---vymazanie súboru
-  rm -r ---vymazanie adreáru
-  nano ---editor textových súborov
-  copy SRC DEST ---kopírovanie súboru
-  git clone ---klonovanie git repozitáru
+<br>ls ---výpis priečinkov v adresári kde sa nachádzame
+<br>ls -a ---výpis všetkých priečinkov v adresári kde sa nachádzame
+<br>cd .. ---presun o adresár nižšie
+<br>cd .../... ---presun do zadaného adresáru
+<br>mkdir ---vytvorenie adresáru 
+<br>rm ---vymazanie súboru
+<br>rm -r ---vymazanie adreáru
+<br>nano ---editor textových súborov
+<br>copy SRC DEST ---kopírovanie súboru
+<br>git clone ---klonovanie git repozitáru
 
 # Príkazy pre rozbehanie inštaláciu Dockeru
-  sudo apt upgrade
-  sudo apt update
-  curl -sSL https://get.docker.com/ | sh
-  docker info
-  sudo apt get docker-compose
+<br>sudo apt upgrade
+<br>sudo apt update
+<br>curl -sSL https://get.docker.com/ | sh
+<br>docker info
+<br>sudo apt get docker-compose
 
-  *ak by sa nespustil server tak zadajte 
-  sudo chmod 666 /var/run/docker.sock
+<br>*ak by sa nespustil server tak zadajte 
+<br>sudo chmod 666 /var/run/docker.sock
 
 # Porty kam sa pripájame (viditeľné v docker file)
-  1883 - nešifrované MQTT
-  1880 - Nodered
-  3000 - Grafana
-  8086 - InfluxDB
+<br>1883 - nešifrované MQTT
+<br>1880 - Nodered
+<br>3000 - Grafana
+<br>8086 - InfluxDB
 
 # Príkazy pre docker
-  docker-compose up
-  docker container ls
-  docker volume ls
-  docker --help
+<br>docker-compose up
+<br>docker container ls
+<br>docker volume ls
+<br>docker --help
 
 # Setup MQTT 
-  Priečinok kde sa nachádzajú súbory projektu /var/lib/docker/volumes
-  Nutné upraviť v MQTT config file:
-  listener 1883 ---pridanie portu na ktorý sa pripájame (nezabezpeceny port|
-  allow_anonymus true ---povolime nesifrovanu komunikaciu
-  Ďalšie konfiguračne informácie sa nachádzajú v config file
+<br>Priečinok kde sa nachádzajú súbory projektu /var/lib/docker/volumes
+<br>Nutné upraviť v MQTT config file:
+<br>listener 1883 ---pridanie portu na ktorý sa pripájame (nezabezpeceny port|
+<br>allow_anonymus true ---povolime nesifrovanu komunikaciu
+<br>Ďalšie konfiguračne informácie sa nachádzajú v config file
 
