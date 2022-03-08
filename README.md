@@ -37,7 +37,7 @@
 
 # Setup MQTT 
 <br>Priečinok kde sa nachádzajú súbory projektu /var/lib/docker/volumes
-<br>Nutné upraviť v MQTT config file:
+<br>Nutné upraviť v mosquitto config file:
 <br>listener 1883 ---pridanie portu na ktorý sa pripájame (nezabezpeceny port|
 <br>allow_anonymus true ---povolime nesifrovanu komunikaciu
 <br>Ďalšie konfiguračne informácie sa nachádzajú v config file
