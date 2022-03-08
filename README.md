@@ -1,9 +1,9 @@
 # srobarka-kvalita-ovzdusia
 
 #Základné príkazy v Ubuntu/Debian CLI
-ls ---výpis priečinkov v adresári kde sa nachádzame
-ls -a ---výpis všetkých priečinkov v adresári kde sa nachádzame
-cd .. ---presun o adresár nižšie
+<br>ls ---výpis priečinkov v adresári kde sa nachádzame
+<br>ls -a ---výpis všetkých priečinkov v adresári kde sa nachádzame
+<br>cd .. ---presun o adresár nižšie
 cd .../... ---presun do zadaného adresáru
 mkdir ---vytvorenie adresáru 
 rm ---vymazanie súboru
