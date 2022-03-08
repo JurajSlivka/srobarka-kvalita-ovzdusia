@@ -4,7 +4,7 @@
 <br>ls ---výpis priečinkov v adresári kde sa nachádzame
 <br>ls -a ---výpis všetkých priečinkov v adresári kde sa nachádzame
 <br>cd .. ---presun o adresár nižšie
-cd .../... ---presun do zadaného adresáru
+  cd .../... ---presun do zadaného adresáru
 mkdir ---vytvorenie adresáru 
 rm ---vymazanie súboru
 rm -r ---vymazanie adreáru
