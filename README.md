@@ -13,7 +13,7 @@
 <br>copy SRC DEST ---kopírovanie súboru
 <br>git clone ---klonovanie git repozitáru
 
-# Príkazy pre rozbehanie inštaláciu Dockeru
+# Príkazy pre rozbehanie/inštaláciu Dockeru
 <br>sudo apt upgrade
 <br>sudo apt update
 <br>curl -sSL https://get.docker.com/ | sh
