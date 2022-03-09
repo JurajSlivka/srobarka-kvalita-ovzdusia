@@ -12,7 +12,7 @@
 <br>nano ---editor textových súborov
 <br>copy SRC DEST ---kopírovanie súboru
 <br>git clone ---klonovanie git repozitáru
-<br> git clone
+<br> git clone https://github.com/JurajSlivka/srobarka-kvalita-ovzdusia.git
 
 # Príkazy pre rozbehanie/inštaláciu Dockeru
 <br>sudo apt upgrade
