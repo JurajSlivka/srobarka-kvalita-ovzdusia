@@ -12,6 +12,7 @@
 <br>nano ---editor textových súborov
 <br>copy SRC DEST ---kopírovanie súboru
 <br>git clone ---klonovanie git repozitáru
+<br> git clone
 
 # Príkazy pre rozbehanie/inštaláciu Dockeru
 <br>sudo apt upgrade
