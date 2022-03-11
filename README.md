@@ -17,9 +17,9 @@
 # Príkazy pre rozbehanie/inštaláciu Dockeru
 <br>sudo apt upgrade
 <br>sudo apt update
-<br>curl -sSL https://get.docker.com/ | sh
-<br>docker info
-<br>sudo apt get docker-compose
+<br>sudo apt-get install docker.io ---inštalácia Docker
+<br>docker info ---kontrola inštalácie Dockeru (skontrolujeme či beží Client aj Server)
+<br>sudo apt-get install docker-compose ---inštalácia Docker Compose
 
 <br>*ak by sa nespustil server tak zadajte 
 <br>sudo chmod 666 /var/run/docker.sock
@@ -31,9 +31,9 @@
 <br>8086 - InfluxDB
 
 # Príkazy pre docker
-<br>docker-compose up
-<br>docker container ls
-<br>docker volume ls
+<br>docker-compose up ---spustenie všetkých kontajnerov v docker file
+<br>docker container ls ---výpis bežiacich kontajnerov
+<br>docker volume ls ---výpis dátových priečinkov dockeru
 <br>docker --help
 
 # Setup MQTT 
