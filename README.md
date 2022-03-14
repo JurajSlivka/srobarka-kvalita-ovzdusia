@@ -15,8 +15,8 @@
 <br> git clone https://github.com/JurajSlivka/srobarka-kvalita-ovzdusia.git
 
 # Príkazy pre rozbehanie/inštaláciu Dockeru
-<br>sudo apt upgrade
 <br>sudo apt update
+<br>sudo apt upgrade
 <br>sudo apt-get install docker.io ---inštalácia Docker
 <br>docker info ---kontrola inštalácie Dockeru (skontrolujeme či beží Client aj Server)
 <br>sudo apt-get install docker-compose ---inštalácia Docker Compose
