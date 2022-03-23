@@ -17,7 +17,7 @@
 # Príkazy pre rozbehanie/inštaláciu Dockeru
 <br>sudo apt update
 <br>sudo apt upgrade
-<br>sudo apt-get install docker.io ---inštalácia Docker
+<br>curl -sSL https://get.docker.com | sh
 <br>docker info ---kontrola inštalácie Dockeru (skontrolujeme či beží Client aj Server)
 <br>sudo apt-get install docker-compose ---inštalácia Docker Compose
 
